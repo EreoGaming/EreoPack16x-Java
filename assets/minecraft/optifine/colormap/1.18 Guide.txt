@@ -1,0 +1,34 @@
+The gradients were created with 15-16 blocks of distance for maximum biome blend. As such, they mix with biome transition gradients best when the Biome Blend setting is set to 15x15.
+
+Adding a gradient:
+1. Highlight current biome ID
+2. Primary color is hills, secondary is default
+3. Start at pixel height 108 and drag gradient to pixel height 92
+4. Deselect
+5. When finished, move all pixels down 64 and stretch bottom pixel up 64 blocks
+
+A few biomes have special gradient heights:
+
+Deserts and Badlands have gradients from y=88 to y=72.
+Swamps and Mushroom Fields have gradients from 80 to 64
+Taigas and groves have two gradients, one from 108 to 72, and another from 158 to 142.
+All oceans have fog gradients (between normal and deep colors) from 53 to 38.
+
+Here are the biomes with custom colors (not from Bedrock Edition):
+
+Plains Hills
+Grove
+Snowy Slopes
+Frozen Peaks
+Jagged Peaks
+Stony Peaks
+Dripstone Caves
+Lush Caves
+Warped Forest
+Crimson Forest
+Soul Sand Valley
+Basalt Deltas
+End Highlands
+End Midlands
+Small End Islands
+End Barrens
